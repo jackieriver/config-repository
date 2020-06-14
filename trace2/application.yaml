@@ -1,0 +1,13 @@
+eureka:
+  instance:
+    hostname: peer1
+    home-page-url: swagger-ui.html
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://peer1:8762/eureka/,http://peer2:8762/eureka/
+  dashboard:
+    enabled: true
+  server:
+    enable-self-preservation: false
