@@ -11,3 +11,6 @@ eureka:
     enabled: true
   server:
     enable-self-preservation: false
+spring:
+  zipkin:
+    base-url: http://localhost:9411
